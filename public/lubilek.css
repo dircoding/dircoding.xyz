@@ -39,7 +39,7 @@
 body {
   --text: #e6e6e6;
   
-  --bg: url(https://grimydroopyspof.itzhai27.repl.co/bg-light.png);
+  --bg: url(bg-light.png);
 
   font-family: "Inter", sans-serif;
   line-height: 1.7;
@@ -50,7 +50,7 @@ body {
 .dark {
   --text: #e6e6e6;
 
-  --bg: url(https://grimydroopyspof.itzhai27.repl.co/bg-dark.png);
+  --bg: url(bg-dark.png);
 
 }
 
