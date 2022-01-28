@@ -1,3 +1,7 @@
+// (C) Wuviems On Github
+// MIT LICENSE
+// READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
+
 const toggle = document.getElementById("toggle");
 const theme = window.localStorage.getItem("theme");
 
