@@ -1,0 +1,35 @@
+/** 
+(C) Wuviems On Github
+MIT LICENSE
+READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
+**/
+
+.text{
+  text-align: center; 
+}
+
+.diText{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+  --text: #e6e6e6;
+  
+  --bg: url(bg-light.png);
+
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  background-image: var(--bg);
+  height: 100%;
+  margin: 0;
+}
+.dark {
+  --text: #e6e6e6;
+
+  --bg: url(bg-dark.png);
+}
