@@ -20,16 +20,20 @@ READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
 .diBtn{
   margin: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 120%;
+  left: 48%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
+.diIya {
+ 	display: inline;
+}
+
 body {
-  --text: #e6e6e6;
+  --text: #000;
   
-  --bg: url(bg-light.png);
+  --bg: #e6e6e6;
 
   font-family: "Inter", sans-serif;
   line-height: 1.7;
@@ -40,5 +44,5 @@ body {
 .dark {
   --text: #e6e6e6;
 
-  --bg: url(bg-dark.png);
+  --bg: #000;
 }
