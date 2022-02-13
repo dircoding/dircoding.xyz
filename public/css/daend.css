@@ -30,6 +30,14 @@ READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
  	display: inline;
 }
 
+.cookiesDiv{
+  --keliatan: white;
+  --keliatanGa: inline;
+
+  color: var(--keliatan);
+  display: var(--keliatanGa);
+}
+
 body {
   --text: #000;
   
@@ -45,4 +53,8 @@ body {
   --text: #e6e6e6;
 
   --bg: #000;
+}
+
+.cookies{
+  --keliatanGa: none;
 }
