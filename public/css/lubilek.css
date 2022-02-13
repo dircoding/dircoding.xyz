@@ -1,9 +1,9 @@
 /** 
-(C) Wuviems On Github
+(C) Nullname On Github
 
 MIT LICENSE
 
-READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
+READ MORE AT: https://github.com/nullnames/nullname/blob/main/LICENSE
 **/
 
 @charset "utf-8";
@@ -47,7 +47,7 @@ READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
 body {
   --text: #e6e6e6;
   
-  --bg: url(https://wuviems-production.up.railway.app/bg-light.png);
+  --bg: url(https://nullname-production.up.railway.app/bg-light.png);
 
   font-family: "Inter", sans-serif;
   line-height: 1.7;
@@ -58,7 +58,7 @@ body {
 .dark {
   --text: #e6e6e6;
 
-  --bg: url(https://wuviems-production.up.railway.app/bg-dark.png);
+  --bg: url(https://nullname-production.up.railway.app/bg-dark.png);
 
 }
 
