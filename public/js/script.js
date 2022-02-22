@@ -1,6 +1,6 @@
-// (C) Wuviems On Github
+// (C) Dircoding On Github
 // MIT LICENSE
-// READ MORE AT: https://github.com/wuviems/wuviems/blob/main/LICENSE
+// READ MORE AT https://github.com/dircoding/dircoding.xyz/blob/main/LICENSE
 
 const toggle = document.getElementById("toggle");
 const theme = window.localStorage.getItem("theme");

@@ -1,6 +1,6 @@
-// (C) Wuviems On Github
+// (C) Dircoding On Github
 // MIT LICENSE
-// READ MORE AT https://github.com/wuviems/wuviems/blob/main/LICENSE
+// READ MORE AT https://github.com/dircoding/dircoding.xyz/blob/main/LICENSE
 
 var express = require("express");
 var app = express();
@@ -18,8 +18,6 @@ app.get("/", function(request, response) {
 
 //  Response 404 Page
 app.use(function(req, res, next){
-  res.status(404);
-
   if (req.accepts('html')) {
     res.sendFile(__dirname + '/views/404.html');
     return;

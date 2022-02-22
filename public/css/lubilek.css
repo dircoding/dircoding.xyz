@@ -7,18 +7,18 @@ READ MORE AT: https://github.com/nullnames/nullname/blob/main/LICENSE
 **/
 
 @charset "utf-8";
-  .header{
-    background-color: #D3D3D3;
+
+.header{
+    background-color: rgb(20, 20, 20);
     font-size: 25px;
     padding: 28px 32px;
     position: relative;
   }
-
-  .uiPC{
+.uiPC{
     display: inline;
   }
 
-  .home{
+.home{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -26,7 +26,7 @@ READ MORE AT: https://github.com/nullnames/nullname/blob/main/LICENSE
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
  }
-  .product{
+.product{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -34,36 +34,32 @@ READ MORE AT: https://github.com/nullnames/nullname/blob/main/LICENSE
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
  }
-  .contact{
+.contact{
   margin: 0;
   position: absolute;
   top: 50%;
   left: 89%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
- }
+}
+
+.dijeda{
+    padding: 390px 32px;
+    position: relative;
+}
 
 
 body {
-  --text: #e6e6e6;
-  
-  --bg: url(https://nullname-production.up.railway.app/bg-light.png);
-
   font-family: "Inter", sans-serif;
   line-height: 1.7;
-  background-image: var(--bg);
+  background-color: rgb(20, 20, 20);
   height: 100%;
   margin: 0;
 }
-.dark {
-  --text: #e6e6e6;
 
-  --bg: url(https://nullname-production.up.railway.app/bg-dark.png);
-
+a, span, h1, h2, h3, p {
+  color: rgb(221, 221, 221)
 }
-
-
-
 
 
 /* UI Handphone/Android/MiniMonitor/iOS */
