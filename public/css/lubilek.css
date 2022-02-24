@@ -44,7 +44,7 @@ READ MORE AT: https://github.com/nullnames/nullname/blob/main/LICENSE
 }
 
 .dijeda{
-    padding: 390px 32px;
+    padding: 40px 32px;
     position: relative;
 }
 
@@ -59,6 +59,10 @@ body {
 
 a, span, h1, h2, h3, p {
   color: rgb(221, 221, 221)
+}
+
+.moreMore {
+  background-image: url(cdn.dircoding.xyz)
 }
 
 
