@@ -29,9 +29,3 @@ app.use(function(req, res, next){
 var listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
-
-function getIPFromAmazon() {
-  fetch("https://checkip.amazonaws.com/").then(res => res.text()).then(data => console.log(data))
-}
-
-getIPFromAmazon()
