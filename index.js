@@ -3,6 +3,7 @@
 // READ MORE AT https://github.com/dircoding/dircoding.xyz/blob/main/LICENSE
 
 var express = require("express");
+const fetch = require('node-fetch');
 var app = express();
 
 // we've started you off with Express,
