@@ -14,13 +14,13 @@ app.use(express.static("public"));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function(request, response) {
-  response.sendFile(__dirname + "/views/index.html");
+  response.sendFile(__dirname + "/index.html");
 });
 
 //  Response 404 Page
 app.use(function(req, res, next){
   if (req.accepts('html')) {
-    res.sendFile(__dirname + '/views/404.html');
+    res.sendFile(__dirname + '/404.html');
     return;
   }
 });
